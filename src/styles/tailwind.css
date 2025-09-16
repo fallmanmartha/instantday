@@ -11,6 +11,18 @@
   /*Typografi */
   --font-heading: "futura-pt", sans-serif;
   --font-body: "inter", sans-serif;
+
+  --text-mobile-h1: 45px;
+  --text-mobile-h2: 36px;
+  --text-mobile-h3: 14px;
+  --text-mobile-h4: 12px;
+  --text-mobile-p: 12px;
+
+  --text-computer-h1: 128px;
+  --text-computer-h2: 90px;
+  --text-computer-h3: 64px;
+  --text-computer-h4: 32px;
+  --text-computer-p: 20px;
 }
 
 @layer base {
