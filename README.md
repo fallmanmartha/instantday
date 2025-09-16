@@ -1,29 +1,46 @@
-# Astro Tailwind Starter til at lave fede og flotte websites
-
-Clone github repo'et i VSCode eller lav et nyt repo på basis af templaten, og klon derfra
-
-Åbn terminalen og kør:
+# Astro Starter Kit: Basics
 
 ```sh
-npm install
+npm create astro@latest -- --template basics
 ```
 
-Så er du klar til at bruge løs af:
-[Astro](https://astro.build/)
-[Tailwind](https://tailwindcss.com/)
-[Alpine.js](https://alpinejs.dev/)
-[Motion One](https://motion.dev/) 
+> 🧑‍🚀 **Seasoned astronaut?** Delete this file. Have fun!
 
-Og følgende Tailwind plugins og godbidder:
-[Tailwind Typography](https://github.com/tailwindlabs/tailwindcss-typography)
-[Tailwind Forms](https://github.com/tailwindlabs/tailwindcss-forms)
-[Tailwind Animated](https://www.tailwindcss-animated.com/)
-[Tailwind Intersect](https://github.com/heidkaemper/tailwindcss-intersect) 
-[Hero icons](https://heroicons.com/)
-[Hero patterns](https://heropatterns.com/)
+## 🚀 Project Structure
 
-Og du kan altid installere flere stumper, hvis du får brug for det:-)
+Inside of your Astro project, you'll see the following folders and files:
 
-## 🚀 Hav det sjovt
+```text
+/
+├── public/
+│   └── favicon.svg
+├── src
+│   ├── assets
+│   │   └── astro.svg
+│   ├── components
+│   │   └── Welcome.astro
+│   ├── layouts
+│   │   └── Layout.astro
+│   └── pages
+│       └── index.astro
+└── package.json
+```
 
-Men vigtigst af alt: Lav noget flot:-)
+To learn more about the folder structure of an Astro project, refer to [our guide on project structure](https://docs.astro.build/en/basics/project-structure/).
+
+## 🧞 Commands
+
+All commands are run from the root of the project, from a terminal:
+
+| Command                   | Action                                           |
+| :------------------------ | :----------------------------------------------- |
+| `npm install`             | Installs dependencies                            |
+| `npm run dev`             | Starts local dev server at `localhost:4321`      |
+| `npm run build`           | Build your production site to `./dist/`          |
+| `npm run preview`         | Preview your build locally, before deploying     |
+| `npm run astro ...`       | Run CLI commands like `astro add`, `astro check` |
+| `npm run astro -- --help` | Get help using the Astro CLI                     |
+
+## 👀 Want to learn more?
+
+Feel free to check [our documentation](https://docs.astro.build) or jump into our [Discord server](https://astro.build/chat).
